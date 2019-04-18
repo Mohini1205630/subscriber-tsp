@@ -1,12 +1,17 @@
 package com.dell.tsp.subscriber.model;
 
-public class RegistrationDetail {
+public class LoginDTO {
 	
-	private int id;
+	private int subscriberId;
     private String userName;
     private String passWord;
 	
-    
+	public int getSubscriberId() {
+		return subscriberId;
+	}
+	public void setSubscriberId(int subscriberId) {
+		this.subscriberId = subscriberId;
+	}
 	public String getUserName() {
 		return userName;
 	}
@@ -19,10 +24,7 @@ public class RegistrationDetail {
 	public void setPassWord(String passWord) {
 		this.passWord = passWord;
 	}
-	public int getId() {
-		return id;
-	}
-	public void setId(int id) {
-		this.id = id;
-	}
+		
+	        
 }
+
